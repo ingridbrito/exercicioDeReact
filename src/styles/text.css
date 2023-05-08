@@ -1,0 +1,70 @@
+
+body{
+    background-color: var(--cream);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    overflow: auto;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.image{
+    width: 300px;
+}
+.text{
+ background-color: white; 
+ width: 300px;
+}
+.textCard{
+ margin-top: 10%;
+ margin-left: 30px; 
+ width: 210px;  
+}
+.prices{
+    display: flex;
+    align-items: center;
+}
+
+.product, .description, .originalPrice{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.description{
+    padding-bottom: 0px;
+}
+.originalPrice{
+    text-decoration: line-through;
+}
+.product{
+    letter-spacing: 3px;
+}
+
+.title, .discountPrice{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.discountPrice{
+    color: var(--dark-cyan);
+    padding-right: 15px;
+}
+.btn{
+    background-color: var(--dark-cyan);
+    color: white;
+    border-radius: 5px;
+    width: 230px;
+    height: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:700 ;
+    align-items: center;
+    margin: 0px
+}
+.icon{
+    padding-right: 7px;
+}
